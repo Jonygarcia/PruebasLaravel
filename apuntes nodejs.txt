@@ -1,0 +1,49 @@
+**PREGUNTAS PARA EL SEGUNDO EXAMEN**
+
+- ¿Qué es el core de node?
+- ¿Conceptos buffer y stream?
+- Tipos de buffers
+- ¿Qué modulo nos permite levantar un servidor? (http)
+- ¿Qué tipo de modulo es?
+- ¿Cómo parar la ejecución de un servidor?
+- ¿Qué es una callback?
+- ¿Porqué la necesitamos en Node.js?
+- ¿En qué consiste el patrón de diseño observador y qué módulo lo implementa(Events)?
+- ¿Para qué sirven on, once y remove eventListener?
+- ¿Si un usuario consulta una URL no definida que debería ocurrir?
+- Diferencia entre GET y POST
+- ¿Qué es JSON y porque lo necesitamos?
+- ¿Para que sirve NPM?
+- ¿Qué nos aporta package.json?
+
+
+**PRIMER EXAMEN**
+
+¿Qué es Node.js?
+Node js es un entorno de programación que utiliza el motor de Google Chrome V8.
+Utiliza JavaScript
+
+Características de Node.js:
+- No bloqueante
+- Asíncrono
+- Concurrente
+- Single Thread (Event loops)
+- Basado en callbacks
+- Orientado a eventos
+
+**COSAS PARA EL SEGUNDO EXAMEN**
+
+Cómo funciona Node.js
+
+Usamos su core(núcleo) que contiene diferentes módulos:
+- Global
+- Process
+- Buffer/Stream -> Conexión, carga y descarga de archivos divididos en "pedazos" llamados chunks.
+- FileStream -> Uso de ficheros
+- Path
+- HTTP 
+- require(exports)
+- Events
+
+¿Qué es NPM?
+Un gestor de paquetes para instalar módulos y ampliar la funcionalidad de Node.js
